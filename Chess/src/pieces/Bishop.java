@@ -32,7 +32,7 @@ public class Bishop extends Piece{
 	 * @return un arraylist dels possibles moviments del alfil en exe estat del tabler
 	 * @version 1.0
 	 * @author Ruben Altur
-	 * @since 05/05/2023
+	 * @since 05/05/2023  
 	 */
 	public ArrayList<Cell> move(Cell state[][],int x,int y)
 	{

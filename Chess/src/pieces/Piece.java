@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import chess.Cell;
 
-
+ 
 /**
  * This is the Piece Class. It is an abstract class from which all the actual pieces are inherited.
  * It defines all the function common to all the pieces

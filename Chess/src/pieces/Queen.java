@@ -15,7 +15,7 @@ public class Queen extends Piece{
 	{
 		setId(i);
 		setPath(p);
-		setColor(c);
+		setColor(c); 
 	}
 	
 	//Move Function Defined
@@ -28,7 +28,7 @@ public class Queen extends Piece{
 	 * @param y la coordenada x de la reina
 	 * @return un arraylist dels possibles moviments de la reinas en exe estat del tabler
 	 * @version 1.0
-	 * @author Ruben Altur
+	 * @author Ruben Altur 
 	 * @since 05/05/2023
 	 */
 	public ArrayList<Cell> move(Cell state[][],int x,int y)

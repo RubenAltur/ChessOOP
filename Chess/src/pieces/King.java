@@ -64,12 +64,12 @@ public class King extends Piece{
 	//Function to check if king is under threat
 	//It checks whether there is any piece of opposite color that can attack king for a given board state
 	/**
-	 * 
+	 * Calcula si alguna peça del altre color esta fent jaque al rey
 	 * @version 1.0
 	 * @author Ruben Altur
 	 * @param state el estat del tabler en eixe moment de la partida
 	 * @return si el rey esta en jaque o no
-	 * @since 05/05/2023
+	 * @since 05/05/2023 
 	 */
 	public boolean isindanger(Cell state[][])
     {

@@ -27,7 +27,7 @@ public class Pawn extends Piece{
 	 * @version 1.0
 	 * @author Ruben Altur
 	 * @since 05/05/2023
-	 */
+	 */ 
 	//Move Function Overridden
 	public ArrayList<Cell> move(Cell state[][],int x,int y)
 	{
