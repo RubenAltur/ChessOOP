@@ -19,6 +19,18 @@ public class Queen extends Piece{
 	}
 	
 	//Move Function Defined
+	/**
+	 * Esta funcio calcula tots els posibles moviments de la reina, que son la combinacio dels de la torre i el alfil
+	 *  en una part del tabler
+	 * @param state es un array de 2 dimension que representa el estat actual de les peçes en el tabler, aon cada
+	 * element es una posicio que te informacio de la peça que l'ocupa
+	 * @param x la coordenada x de la reina
+	 * @param y la coordenada x de la reina
+	 * @return un arraylist dels possibles moviments de la reinas en exe estat del tabler
+	 * @version 1.0
+	 * @author Ruben Altur
+	 * @since 05/05/2023
+	 */
 	public ArrayList<Cell> move(Cell state[][],int x,int y)
 	{
 		//Queen has most number of possible moves

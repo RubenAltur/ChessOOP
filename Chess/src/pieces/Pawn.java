@@ -17,7 +17,17 @@ public class Pawn extends Piece{
 		setPath(p);
 		setColor(c);
 	}
-	
+	/**
+	 * Esta funcio calcula tots els posibles moviments del peo en una part del tabler
+	 * @param state es un array de 2 dimension que representa el estat actual dde les peçes en el tabler, aon cada
+	 * element es una posicio que te informacio de la peça que l'ocupa
+	 * @param x la coordenada x del peo
+	 * @param y la coordenada x del peo
+	 * @return un arraylist dels possibles moviments del peo en exe estat del tabler
+	 * @version 1.0
+	 * @author Ruben Altur
+	 * @since 05/05/2023
+	 */
 	//Move Function Overridden
 	public ArrayList<Cell> move(Cell state[][],int x,int y)
 	{

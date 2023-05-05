@@ -36,6 +36,16 @@ public class King extends Piece{
 		return y;
 	}
 	//Move Function for King Overridden from Pieces
+	/**
+	 * Esta funcio calcula tots els posibles moviments del reu donat un estat del tabler
+	 * @param state es un array de 2 dimension que representa el estat actual de les peçes en el tabler, aon cada
+	 * element es una posicio que te informacio de la peça que l'ocupa
+	 * @param x la coordenada x del rei
+	 * @param y la coordenada x del rei
+	 * @return un arraylist dels possibles moviments del rei en exe estat del tabler
+	 * @version 1.0
+	 * @author Ruben Altur
+	 */
 	public ArrayList<Cell> move(Cell state[][],int x,int y)
 	{
 		//King can move only one step. So all the adjacent 8 cells have been considered.
@@ -53,6 +63,14 @@ public class King extends Piece{
 	
 	//Function to check if king is under threat
 	//It checks whether there is any piece of opposite color that can attack king for a given board state
+	/**
+	 * 
+	 * @version 1.0
+	 * @author Ruben Altur
+	 * @param state el estat del tabler en eixe moment de la partida
+	 * @return si el rey esta en jaque o no
+	 * @since 05/05/2023
+	 */
 	public boolean isindanger(Cell state[][])
     {
 		
